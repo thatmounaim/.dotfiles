@@ -1,0 +1,16 @@
+ignore-empty-password
+color=24273A
+indicator-radius=20
+indicator-thickness=10
+key-hl-color=B4A9F7
+bs-hl-color=F28FAD
+separator-color=2E3440
+line-color=2E3440
+inside-color=1E1E2E
+inside-clear-color=B4A9F7
+inside-ver-color=9D8BB5
+inside-wrong-color=F28FAD
+ring-color=B4A9F7
+ring-ver-color=9D8BB5
+ring-clear-color=D1C2F0
+ring-wrong-color=F28FAD

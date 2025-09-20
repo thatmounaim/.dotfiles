@@ -1,0 +1,61 @@
+@import url("./colors.css");
+
+* {
+    font-family: "RobotoMono Nerd Font", sans-serif;
+    font-size: 13px;
+}
+
+window#waybar {
+    background-color: @base00;
+    color: @base04;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+
+label {
+    padding: 0px 8px
+}
+
+#workspaces button {
+    padding: 0 5px;
+    color: @base04;
+    border-radius: 2px;
+margin-right:2px;
+margin-left:2px;
+}
+
+#workspaces button:hover {
+    background-color: @base02;
+ box-shadow: none; /* Remove predefined box-shadow */
+  text-shadow: none; /* Remove predefined text-shadow */
+  background: none; /* Remove predefined background color (white) */
+border: 1px solid @base02;
+}
+
+#workspaces button.focused {
+    background-color: @base05;
+    color: @base01;
+    border-bottom: none;
+}
+
+#workspaces button.urgent {
+    background-color: @base08;
+}
+
+widget > * {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+tooltip {
+  color: @base05;
+  background-color: @base01;
+  text-shadow: none;
+  border-radius: 2px;
+	border: 1px solid @base02;
+}
+
+tooltip * {
+  color: @base05;
+  text-shadow: none;
+}

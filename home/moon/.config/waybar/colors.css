@@ -1,0 +1,17 @@
+/* Catppuccin Macchiato - Waybar Colors */
+@define-color base00 #24273a;
+@define-color base01 #24273a;
+@define-color base02 #5b6078;
+@define-color base03 #99a3e2;
+@define-color base04 #b8c0e0;
+@define-color base05 #cad3f5;
+@define-color base06 #cad3f5;
+@define-color base07 #cad3f5;
+@define-color base08 #ed8796;
+@define-color base09 #f5a97f; /* Use a related color from the theme if not directly available */
+@define-color base0A #eed49f;
+@define-color base0B #a6da95;
+@define-color base0C #8bd5ca;
+@define-color base0D #8aadf4;
+@define-color base0E #f4b8e4;
+@define-color base0F #f0c6c6; /* Use a related color from the theme */

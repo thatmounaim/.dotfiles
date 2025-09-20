@@ -1,0 +1,17 @@
+# Added by Toolbox App
+export PATH="$PATH:/home/moon/.local/share/JetBrains/Toolbox/scripts"
+# Flutter
+export PATH="$HOME/development/flutter/bin:$PATH"
+
+# Aliases
+alias task="go-task"
+
+# User specific environment
+if ! [[ "$PATH" =~ "$HOME/.local/bin:$HOME/bin:" ]]; then
+    PATH="$HOME/.local/bin:$HOME/bin:$PATH"
+fi
+export PATH
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
